@@ -12,8 +12,8 @@ import {
 } from './AccomplishmentsStyles';
 
 const data = [
-  { number: 81, text: 'GitHub Repositories'},
-  { number: 970, text: 'Commits in the last year'},
+  { number: 82, text: 'GitHub Repositories'},
+  { number: 1000, text: 'Commits in the last year'},
   { number: 11, text: 'Github Followers'},
   { number: 19, text: 'Github Stars'}
 ];
