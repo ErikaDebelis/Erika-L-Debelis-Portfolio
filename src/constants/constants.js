@@ -1,20 +1,20 @@
 export const projects = [
   {
+    title: 'MAZE',
+    description:" A full-stack C# API backend and Javascript/React.js front end. Users will be able to navigate a book, choose-your-own-adventure style, in a dynamic web application. Will they survive the maze? Will they solve the riddle?",
+    image: '/images/Maze.png',
+    tags: ['ASP Net Core', ',' , 'EF Core', ',' , 'MySQL', ',' , 'React', ',' ,'Webpack'],
+    source: 'https://github.com/ErikaDebelis/MAZE',
+    visit: 'https://github.com/ErikaDebelis/MAZE',
+    id: 0,
+  },
+  {
     title: 'Tap Room',
-    description: "Using React, an app built allows for a user catalogs kegs will full CRUD functionality.",
+    description: "Using React, an app built allows for a user catalogs kegs will full CRUD functionality.A user can see how many pints are left in the keg (a full keg holds 124 pints). A user can click a button to sell a pint and decrease the number of pints left by 1 (pints should not go below 0).",
       image: '/images/Tap-Room.png',
       tags: ['CSS', ',' , 'JSX', ',' , 'React', ',' , 'Bootstrap'],
     source: 'https://github.com/ErikaDebelis/react-tap-room',
     visit: 'https://github.com/ErikaDebelis/react-tap-room',
-    id: 0,
-  },
-  {
-    title: 'Leek Quest',
-    description:" A full-stack c# backend, javascript/Vue.js front end.",
-    image: '/images/2.png',
-    tags: ['Vue.js', ',' , 'JavaScript', ',' , 'C#', ',' , 'EF Core', ',' , 'ASP NET Core', ',' , 'MySql'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
     id: 1,
   },
   {

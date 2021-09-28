@@ -16,6 +16,7 @@ import { Section,
   SectionTitle
 } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
+import { motion } from 'framer-motion';
 
 const Projects = () => (
   <Section nopadding id="projects">
@@ -24,26 +25,33 @@ const Projects = () => (
     <GridContainer>
       {projects.map((p, i) => {
         return (
-          <BlogCard key={i}>
-          <Img src={p.image} />
-            <TitleContent>
-              <HeaderThree title>{p.title}</HeaderThree>
-              <Hr />
-            </TitleContent>
-            <CardInfo className="card-info">{p.description}</CardInfo>
-            <div>
-              <TitleContent>Stack</TitleContent>
-              <TagList>
-                {p.tags.map((t, i) => {
-                  return <Tag key={i}>{t}</Tag>;
-                })}
-              </TagList>
-            </div>
-            <UtilityList>
-              <ExternalLinks href={p.visit}>Code</ExternalLinks>
-              <ExternalLinks href={p.source}>Source</ExternalLinks>
-            </UtilityList>
-          </BlogCard>
+          <motion.li key={i} className="card-info" whileHover={{
+            scale: 1.1,
+            transition: {
+              duration: 0.2
+            }
+          }}>
+            <BlogCard key={i}>
+            <Img src={p.image} />
+              <TitleContent>
+                <HeaderThree title>{p.title}</HeaderThree>
+                <Hr />
+              </TitleContent>
+              <CardInfo className="card-info">{p.description}</CardInfo>
+              <div>
+                <TitleContent>Stack</TitleContent>
+                <TagList>
+                  {p.tags.map((t, i) => {
+                    return <Tag key={i}>{t}</Tag>;
+                  })}
+                </TagList>
+              </div>
+              <UtilityList>
+                <ExternalLinks href={p.visit}>Code</ExternalLinks>
+                <ExternalLinks href={p.source}>Source</ExternalLinks>
+              </UtilityList>
+            </BlogCard>
+          </motion.li>
         );
       })}
     </GridContainer>
