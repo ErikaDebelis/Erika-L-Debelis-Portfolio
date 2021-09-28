@@ -29,7 +29,7 @@ const Accomplishments = () => (
         </Box>
       ))}
     </Boxes>
-    <SectionDivider/>
+    <SectionDivider colorAlt/>
   </Section>
 );
 

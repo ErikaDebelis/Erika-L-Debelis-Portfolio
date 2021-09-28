@@ -29,45 +29,34 @@ const Technologies = () =>  (
     <List>
       <ListItem>
         <picture>
-          <DiReact size="3rem" />
+          <DiReact size="4rem" />
         </picture>
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            React.js
-            JQuery
-            Next.js
-            CSS
-            HTML5
+            React.js, 
+            JQuery, 
+            Next.js, 
+            CSS, 
+            Bootstrap, 
+            HTML5, 
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
-          <DiFirebase size="3rem" />
+          <DiFirebase size="4rem" />
         </picture>
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node.js
-            Entity Framework Core
-            .NET
-            MySQL
-            NoSQL
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <picture>
-          <DiZend size="3rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            tools like bootstrap
+            Node.js, 
+            ASP Net Core 5, 
+            Entity Framework Core, 
+            MySQL, 
+            NoSQL, 
           </ListParagraph>
         </ListContainer>
       </ListItem>

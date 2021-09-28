@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: 'Tap Room',
-    description: "Using React, an app built allows for a user catalogs kegs will full CRUD functionality.A user can see how many pints are left in the keg (a full keg holds 124 pints). A user can click a button to sell a pint and decrease the number of pints left by 1 (pints should not go below 0).",
+    description: "Using React, an app built allows for a user catalogs kegs will full CRUD functionality. A user can see how many pints are left in the keg (a full keg holds 124 pints) and can click a button to sell a pint (pints should not go below 0).",
       image: '/images/Tap-Room.png',
       tags: ['CSS', ',' , 'JSX', ',' , 'React', ',' , 'Bootstrap'],
     source: 'https://github.com/ErikaDebelis/react-tap-room',
@@ -27,7 +27,7 @@ export const projects = [
     id: 2,
   },
   {
-    title: 'Eau Clair Salon',
+    title: 'Hair Salon',
     description: "This is a code repository for a hypothetical hair salon. The user can ass stylists and their corresponding clients; displaying sa one-to-many relationship. This app was built with C#, MySql, EntityFramework Core, ASP NET CORE.",
     image: '/images/Hair-Salon.png',
     tags: ['C#', ',' , 'EF Core', ',' , 'ASP NET Core', ',' , 'Bootstrap'],
