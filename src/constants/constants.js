@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     title: 'Animal Shelter API',
-    description: "This is a API code repository for a hypothetical animal shelter. The API was built with C#, MySql, EntityFramework Core, ASP NET CORE and also implements features such as pagination, CORS, and a Swagger/Swashbuckle UI ",
+    description: "This is a API code repository for a hypothetical animal shelter. The API was built with C#, MySql, EntityFramework Core, ASP NET CORE and also implements features such as pagination, CORS, and a Swagger/Swashbuckle UI",
       image: '/images/3.jpg',
       tags: ['C#','EF Core', 'ASP NET Core', 'Swagger', 'Postman'],
     source: 'https://google.com',
