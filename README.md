@@ -1,42 +1,54 @@
-## Personal Portfolio
+# Personal Portfolio :scroll:
+#### A web application showcasing my projects and help potential clients and employers gain insight into who I am as a person and developer.
 
+#### Authored by Erika Debelis
 
-Setup:
-- run ```npm i && npm start```
+## Technologies Used
 
+* _Next.js_
+* _React.js_
+* _JavaScript_
+* _JSX_
+* _Framer-Motion_
+* _React-Icons_
+* _Styled-Components_
+* _SVG_
+* _NPM_
+* _Yarn_
+* _Babel_
+* _ES6_
+* _Git BASH_
 
+![Screenshot](https://raw.github.com/ErikaDebelis/Erika-L-Debelis-Portfolio/main/portfolio.gif)
+_(a gif for a visual preview of the site)_
+## Setup/Installation Requirements
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Visit the live deployment on gh-pages! https://erikadebelis.github.io/Erika-L-Debelis-Portfolio/
 
-## Getting Started
+or alternatively,
 
-First, run the development server:
+1. Download or clone https://github.com/ErikaDebelis/Erika-L-Debelis-Portfolio to your local machine
+2. Run "npm install" in the git BASH terminal to install dependencies
+    ``$ npm install``
+3. Run "npm run build" in the git BASH terminal to bundle all of the files
+    ``$ npm run build``
+4. Run "npm start" in the git BASH terminal to run the project in the terminal and launch the development server.
+    ``$ npm start``
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+5. View the website by visiting localhost:3000/ in a new web browser( such as google chrome) tab!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Bugs
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+_no known bugs at this time_
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## License
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+_MIT_
 
-## Learn More
+_Copyright :copyright: 2021 Erika Debelis_
 
-To learn more about Next.js, take a look at the following resources:
+if any issues are discovered while navigating the site, please let me know! It will help me learn and grow!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contact Information
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Erika Debelis _erika.debelis@gmail.com_
