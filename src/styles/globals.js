@@ -12,7 +12,12 @@ const GlobalStyles = createGlobalStyle`
   html {
     font-size: 62.5%;
     scroll-behavior: smooth;
-
+  }
+  p {
+    font-size: 100%;
+    padding: 1em 0;
+    line-height: 1.5em;
+  }
   }
   body {
     font-family: ${props => props.theme.fonts.main};
