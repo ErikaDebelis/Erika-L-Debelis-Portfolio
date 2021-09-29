@@ -34,7 +34,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
+            Experience with Javascript:<br />
             React.js, 
             JQuery, 
             Next.js, 
@@ -51,7 +51,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
+            Experience with C# and Javascript:<br />
             Node.js, 
             ASP Net Core 5, 
             Entity Framework Core, 
