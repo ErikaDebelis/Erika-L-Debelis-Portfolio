@@ -28,7 +28,7 @@ export const projects = [
   },
   {
     title: 'Hair Salon',
-    description: "This is a code repository for a hypothetical hair salon. The user can ass stylists and their corresponding clients; displaying sa one-to-many relationship. This app was built with C#, MySql, EntityFramework Core, ASP NET CORE.",
+    description: "This is a code repository for a hypothetical hair salon. The user can assign stylists and corresponding clients; demonstrating a one-to-many relationship. This app was built with C#, MySql, EntityFramework Core, ASP NET CORE.",
     image: '/Erika-L-Debelis-Portfolio/images/Hair-Salon.png',
     tags: ['C#', ',' , 'EF Core', ',' , 'ASP NET Core', ',' , 'Bootstrap'],
     source: 'https://github.com/ErikaDebelis/HairSalon.Solution',
