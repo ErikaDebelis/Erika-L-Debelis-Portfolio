@@ -19,7 +19,7 @@
 * _ES6_
 * _Git BASH_
 
-![Screenshot](https://raw.github.com/ErikaDebelis/Erika-L-Debelis-Portfolio/main/portfolio.gif)
+![portfolio](https://raw.github.com/ErikaDebelis/Erika-L-Debelis-Portfolio/main/public/portfolio.gif)
 _(a gif for a visual preview of the site)_
 ## Setup/Installation Requirements
 
