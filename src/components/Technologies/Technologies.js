@@ -39,7 +39,7 @@ const Technologies = () =>  (
             Next.js,
             CSS,
             Bootstrap,
-            HTML5,
+            HTML5
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -55,7 +55,7 @@ const Technologies = () =>  (
             ASP Net Core 5,
             Entity Framework Core,
             MySQL,
-            NoSQL,
+            NoSQL
           </ListParagraph>
         </ListContainer>
       </ListItem>
