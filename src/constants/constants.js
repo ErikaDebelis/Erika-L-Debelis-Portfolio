@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'MAZE',
-    description:" A full-stack C# API backend and Javascript/React.js front end. Users will be able to navigate a book, choose-your-own-adventure style, in a dynamic web application. Will they survive the maze? Will they solve the riddle?",
+    description:" A full-stack C# ASP .Net Core API back-end and Javascript/React.js front-end. A User will be able to navigate the maze book, choose-your-own-adventure style in a dynamic web application. Will you survive the maze? Will you solve the riddle?",
     image: '/Erika-L-Debelis-Portfolio/images/Maze.png',
     tags: ['ASP Net Core', ',' , 'EF Core', ',' , 'MySQL', ',' , 'React', ',' ,'Webpack'],
     source: 'https://github.com/ErikaDebelis/MAZE',
@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: 'Tap Room',
-    description: "Using React, an app built allows for a user catalogs kegs will full CRUD functionality. A user can see how many pints are left in the keg (a full keg holds 124 pints) and can click a button to sell a pint (pints should not go below 0).",
+    description: "A React-built web application which allows for a user to catalog kegs with full CRUD functionality. A user can see how many pints are left in the keg (a full keg holds 124 pints) click a button to sell a pint (pints should not go below 0).",
       image: '/Erika-L-Debelis-Portfolio/images/Tap-Room.png',
       tags: ['CSS', ',' , 'JSX', ',' , 'React', ',' , 'Bootstrap'],
     source: 'https://github.com/ErikaDebelis/react-tap-room',
@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     title: 'Animal Shelter API',
-    description: "This is a API code repository for a hypothetical animal shelter. The API was built with C#, MySql, EntityFramework Core, ASP NET CORE and also implements features such as pagination, CORS, and a Swagger/Swashbuckle UI",
+    description: "A C# ASP .Net Core API code repository for a hypothetical animal shelter. MySql and use of migrations, EntityFramework Core, and also implements features such as pagination, CORS, and a Swagger/Swashbuckle UI",
       image: '/Erika-L-Debelis-Portfolio/images/Animal-Shelter.png',
       tags: ['C#', ',' , 'EF Core', ',' , 'ASP NET Core', ',' , 'Swagger', ',' , 'Postman'],
     source: 'https://github.com/ErikaDebelis/AnimalShelterAPI.Solution',
@@ -28,7 +28,7 @@ export const projects = [
   },
   {
     title: 'Hair Salon',
-    description: "This is a code repository for a hypothetical hair salon. The user can assign stylists and corresponding clients; demonstrating a one-to-many relationship. This app was built with C#, MySql, EntityFramework Core, ASP NET CORE.",
+    description: "A C# ASP .Net Core code repository for a hypothetical hair salon. The user can assign stylists and add corresponding clients; demonstrating a one-to-many relationship. This app was built with MySql + MySQL Workbench, EntityFramework Core, ",
     image: '/Erika-L-Debelis-Portfolio/images/Hair-Salon.png',
     tags: ['C#', ',' , 'EF Core', ',' , 'ASP NET Core', ',' , 'Bootstrap'],
     source: 'https://github.com/ErikaDebelis/HairSalon.Solution',

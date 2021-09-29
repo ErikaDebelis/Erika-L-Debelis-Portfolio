@@ -24,7 +24,6 @@ const Technologies = () =>  (
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I've worked with a range a technologies in the web development world.
-      From Back-end To Design
     </SectionText>
     <List>
       <ListItem>
@@ -35,12 +34,12 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with Javascript:<br />
-            React.js, 
-            JQuery, 
-            Next.js, 
-            CSS, 
-            Bootstrap, 
-            HTML5, 
+            React.js,
+            JQuery,
+            Next.js,
+            CSS,
+            Bootstrap,
+            HTML5,
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -52,11 +51,11 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with C# and Javascript:<br />
-            Node.js, 
-            ASP Net Core 5, 
-            Entity Framework Core, 
-            MySQL, 
-            NoSQL, 
+            Node.js,
+            ASP Net Core 5,
+            Entity Framework Core,
+            MySQL,
+            NoSQL,
           </ListParagraph>
         </ListContainer>
       </ListItem>
