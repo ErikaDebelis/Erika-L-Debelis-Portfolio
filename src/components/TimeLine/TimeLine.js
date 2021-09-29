@@ -1,7 +1,26 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, {
+  useState,
+  useRef,
+  useEffect
+} from 'react';
 
-import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import {
+  CarouselButton,
+  CarouselButtonDot,
+  CarouselButtons,
+  CarouselContainer,
+  CarouselItem,
+  CarouselItemImg,
+  CarouselItemText,
+  CarouselItemTitle,
+  CarouselMobileScrollNode
+} from './TimeLineStyles';
+import {
+  Section,
+  SectionDivider,
+  SectionText,
+  SectionTitle
+} from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
@@ -47,7 +66,7 @@ const Timeline = () => {
       <SectionTitle>About Me</SectionTitle>
       {/* <SectionText> */}
         <p>
-          My name is Erika Debelis and the purpose of this portfolio site is to help potential clients and employers gain insight into who I am as a person and developer. I went to college for a few years straight out of high school, but I didn't have a clear path in mind. After I had completed all of my gen-ed courses, I hit somewhat of a wall on how to move forward. This prompted me to put my education on pause until I could get inspired by a career path to pursue. In the interim, I had several jobs that helped me realize some important things about me and my strong suits. I learned that I both enjoy and have a knack for technical work. Where others would tend to get frustrated by the interface; I was intrigued. It soon became clear to me that I needed to make a change and harness my potential, so I decided it was time to unpause my education and career exploration. I've always had an affinity to math, so my search started there. Eventually, my research of career options and local schools/programs led me to discovering software development bootcamps  and Epicodus. I decided to truly commit to this life change and immediately enrolled in the Full-Time, Full-Stack program for C#, Javascript/React, CSS, and HTML5. Throughout my time at Epicodus, my problem-solving skills have been tested and thusly, grown exponentially. The experience has be enlightening and humbling and I look forward to emerging into the tech field with my new skills and passion for development.
+          My name is Erika Debelis and the purpose of this portfolio site is to help potential clients and employers gain insight into who I am as a person and developer. I went to college for a few years straight out of high school, but I didn't have a clear path in mind. After I had completed all of my gen-ed courses, I hit somewhat of a wall on how to move forward. This prompted me to put my education on pause until I could get inspired by a career path to pursue. In the interim, I had several jobs that helped me realize some important things about me and my strong suits. I learned that I both enjoy and have a knack for technical work. Where others would tend to get frustrated by the interface; I was intrigued. It soon became clear to me that I needed to make a change and harness my potential, so I decided it was time to unpause my education and career exploration. I've always had an affinity to math, so my search started there. Eventually, my research of career options and local schools/programs led me to discovering software development bootcamps and Epicodus. I decided to truly commit to this life change and immediately enrolled in the Full-Time, Full-Stack program for C#, Javascript/React, CSS, and HTML5. Throughout my time at Epicodus, my problem-solving skills have been tested and thusly, grown exponentially. The experience has be enlightening and humbling and I look forward to emerging into the tech field with my new skills and passion for development.
         </p>
       {/* </SectionText> */}
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>

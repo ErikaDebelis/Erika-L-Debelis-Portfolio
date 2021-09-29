@@ -27,9 +27,9 @@ const Projects = () => (
       {projects.map((p, i) => {
         return (
           <motion.li key={i} className="card-info" whileHover={{
-            scale: 1.1,
+            scale: [1, 1.2, 1.1],
             transition: {
-              duration: 0.2
+              duration: 0.4
             }
           }}>
             <BlogCard key={i}>
