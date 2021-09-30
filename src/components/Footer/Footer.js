@@ -1,7 +1,8 @@
 import React from 'react';
 import {
   AiFillGithub,
-  AiFillLinkedin
+  AiFillLinkedin,
+  AiOutlineCopyright
 } from 'react-icons/ai';
 import { SocialIcons } from '../Header/HeaderStyles';
 import {
@@ -29,7 +30,9 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Innovating one project at a time</Slogan>
+          <Slogan>
+            <AiOutlineCopyright/> {new Date().getFullYear()} Erika Debelis
+          </Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/ErikaDebelis">

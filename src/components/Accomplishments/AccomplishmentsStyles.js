@@ -24,6 +24,7 @@ export const Boxes = styled.div`
 
 export const Box = styled.div`
   background: #212D45;
+  box-shadow: 0px 0px 10px rgba(53, 22, 248, 0.5);
   border-radius: 12px;
   height: 144px;
   padding: 24px;
