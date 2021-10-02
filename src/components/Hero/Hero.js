@@ -33,7 +33,7 @@ const Hero = (props) => (
           </SectionTitle>
         </motion.div>
         <SectionText>
-          My purpose is to grow my knowledge and skills; development and innovation brought to the next level via creative apps in the tech industry.
+          My name is Erika Debelis and this portfolio site was designed to provide employers and clients with insight into my professional skills and  potential as a developer. I have also included some personal information so that others may understand my motivations that led me to choose the career of software engineering.
         </SectionText>
         <Link href="#about">
           <Button type= "button">Learn More</Button>

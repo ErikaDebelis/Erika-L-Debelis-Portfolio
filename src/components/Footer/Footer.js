@@ -31,7 +31,7 @@ const Footer = () => {
       <SocialIconsContainer>
         <CompanyContainer>
           <Slogan>
-            <AiOutlineCopyright/> {new Date().getFullYear()} Erika Debelis
+            <AiOutlineCopyright/> {new Date().getFullYear()} Erika Debelis.  My purpose is to grow my knowledge and skills; development and innovation brought to the next level via creative apps in the tech industry.
           </Slogan>
         </CompanyContainer>
         <SocialContainer>
