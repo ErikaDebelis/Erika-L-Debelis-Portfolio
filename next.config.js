@@ -1,7 +1,9 @@
 module.exports = {
   exportPathMap: function () {
     return {
-      "/": { page: "/" }
+      "/": { page: "/" },
+      "/ap-grid-layout": { page: "/ap-grid-layout" },
+      "/ap-highlight": { page: "/ap-highlight" },
     }
   },
 
