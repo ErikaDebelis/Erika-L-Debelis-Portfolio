@@ -1,7 +1,9 @@
+const debug = process.env.NODE_ENV !== "production";
+
 module.exports = {
   exportPathMap: function () {
     return {
-      "/": { page: "/Erika-L-Debelis-Portfolio/" },
+      "/": { page: "/" },
       "/ap-grid-layout": { page: "/ap-grid-layout" },
       "/ap-highlight": { page: "/ap-highlight" },
     }
