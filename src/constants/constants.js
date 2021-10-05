@@ -27,12 +27,12 @@ export const projects = [
     id: 2,
   },
   {
-    title: 'Hair Salon',
-    description: "A C# ASP .Net Core code repository for a hypothetical hair salon. The user can assign stylists and add corresponding clients; demonstrating a one-to-many relationship. This app was built with MySql + MySQL Workbench and EntityFramework Core. ",
-    image: '../images/Hair-Salon.png',
+    title: 'Factory To-Do List',
+    description: "A C# ASP .Net Core code repository for a hypothetical factory. The user can assign engineers and add corresponding machines; demonstrating a many-to-many relationship. This app was built with MySql + MySQL Workbench and EntityFramework Core. ",
+    image: '../images/factory-gif.gif',
     tags: ['C#', ',' , 'EF Core', ',' , 'ASP NET Core', ',' , 'Bootstrap'],
-    source: 'https://github.com/ErikaDebelis/HairSalon.Solution',
-    visit: 'https://github.com/ErikaDebelis/HairSalon.Solution',
+    source: 'https://github.com/ErikaDebelis/Factory.Solution',
+    visit: 'https://github.com/ErikaDebelis/Factory.Solution',
     id: 3,
   },
 ];
