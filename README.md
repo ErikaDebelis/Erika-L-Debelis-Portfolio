@@ -23,7 +23,7 @@
 _(a gif for a visual preview of the site)_
 ## Setup/Installation Requirements
 
-Visit the live deployment on gh-pages! https://erikadebelis.github.io/Erika-L-Debelis-Portfolio/
+Visit the live deployment on gh-pages! https://erikadebelisportfolio.com
 
 or alternatively,
 
