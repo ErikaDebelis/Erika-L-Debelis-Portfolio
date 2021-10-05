@@ -1,7 +1,7 @@
 module.exports = {
   exportPathMap: function () {
     return {
-      "/": { page: "/" },
+      "/": { page: "/Erika-L-Debelis-Portfolio/" },
       "/ap-grid-layout": { page: "/ap-grid-layout" },
       "/ap-highlight": { page: "/ap-highlight" },
     }
