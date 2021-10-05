@@ -1,3 +1,9 @@
 module.exports = {
-  basePath: '/Erika-L-Debelis-Portfolio',
+  exportPathMap: function () {
+    return {
+      "/": { page: "/" }
+    }
+  },
+
+  assetPrefix: !debug ? 'https://erikadebelis.github.io/Erika-L-Debelis-Portfolio/' : '',
 }
