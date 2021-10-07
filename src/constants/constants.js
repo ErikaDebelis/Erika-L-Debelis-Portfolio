@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'MAZE',
     description:" A full-stack C# ASP .Net Core API back-end and Javascript/React.js front-end. A User will be able to navigate the maze, choose-your-own-adventure style in a dynamic web application. Will you survive the maze? Can you solve the riddle?",
-    image: '../images/Maze.png',
+    image: '../images/maze-gif.gif',
     tags: ['ASP Net Core', ',' , 'EF Core', ',' , 'MySQL', ',' , 'React', ',' , 'Webpack'],
     source: 'https://github.com/ErikaDebelis/MAZE',
     visit: 'https://github.com/ErikaDebelis/MAZE',
