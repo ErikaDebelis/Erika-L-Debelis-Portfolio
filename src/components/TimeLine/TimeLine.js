@@ -69,7 +69,7 @@ const Timeline = () => {
           The path to my professional future became more focused. Utilizing my affinity for math coupled with my keen aesthetic eye and attention to detail, I made the decision to devote my energies to learning software engineering. 
           Reenergized, I researched educational programs and career options that led me to discovering software development bootcamps and Epicodus. 
           Ultimately I chose to enrolled in the Full-Time, Full-Stack program for C#, Javascript/React, CSS, and HTML5. Throughout my training at Epicodus, my motivation and intellectual abilities; including problem-solving skills, organizational, and time management skills, have been enhanced as a result of the rigorous and meticulous nature of the program. 
-          The experience has increased my desire to secure a position in software development. I look forward to emerging into the tech field with my new skills and further my knowledge through additional programs and related trainings.
+          The experience has increased my desire to secure a position in software development. I have now emerged into the tech field with my new skills as a Software Engineer Intern at HealthSaaS Inc. It is in this role that I began a true deep dive into Backend C# development, with .Net Core 5 + 6 and the performance benefits of functional-style programming- even within Object-oriented languages.
         </p>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

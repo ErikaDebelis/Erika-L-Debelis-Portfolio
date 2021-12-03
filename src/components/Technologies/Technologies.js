@@ -33,10 +33,12 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience with Javascript:<br />
+            Experience with C# and Javascript:<br />
+            VB.Net,
             React.js,
-            JQuery,
+            Vue.js,
             Next.js,
+            JQuery,
             CSS,
             Bootstrap,
             HTML5
@@ -51,9 +53,10 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with C# and Javascript:<br />
-            Node.js,
-            ASP Net Core 5,
+            .Net Core 5 + 6,
+            ASP .Net MVC,
             Entity Framework Core,
+            Node.js,
             MySQL,
             NoSQL
           </ListParagraph>
